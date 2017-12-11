@@ -88,7 +88,7 @@ export class App extends wepy.app {
 * `$wxpage:Object`: 小程序原生page。
 * `$parent:Page|App`：组件的父组件，如果当前是组件是Page对象，那么$parent的值为App对象。
 * `$root:Page`: 组件所在的Page对象，如果当前组件是Page对象，那么$root的值就是自己本身。
-* `$coms:List<Component>`：组件的子组件列表。
+* `$com:List<Component>`：组件的子组件列表。
 * `$mixins:Array[Mixin]`：组件所注入的Mixin对象。
 * `data:Object`: 组件需要绑定的数据。
 * `methods:List<Function>`：组件需要响应的事件列表。
